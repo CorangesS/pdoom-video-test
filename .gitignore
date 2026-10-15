@@ -12,3 +12,18 @@ analysis/__pycache__/
 analysis/stems/
 analysis/work/
 analysis/qa/
+
+# Also ignore dependency symlinks (a trailing slash only matches directories).
+node_modules
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Local input video and regenerable OCR image sequences.
+/audio/*.mp4
+/creations/*/reference/lines/
+
+# Release staging; final media is published as GitHub Release assets.
+/release-assets/

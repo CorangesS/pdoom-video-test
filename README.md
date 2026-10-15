@@ -1,3 +1,30 @@
+# Video experiments · 参考、技能与作品
+
+本仓库保留三层内容，沿用现有目录，避免破坏渲染路径。
+
+| 部分 | 内容 | GitHub 存放方式 |
+| --- | --- | --- |
+| 参考 | 根目录的 `app/`、`analysis/`、`data/`、`docs/`、`lyrics/`；`audio/test-animation*` 与 `character-previews/` 实验 | 源码、配置、必要素材及来源说明进入 Git |
+| 技能 | `opus-video-skills-main/` | 技能、模板、示例和原始 LICENSE 进入 Git |
+| 作品 | `creations/story-of-us/`、`creations/story-of-us-v2/` | 可编辑源码、分镜、锁文件和必要音轨进入 Git；成片及交付附件进入 Releases |
+
+## 作品下载
+
+[GitHub Releases](https://github.com/CorangesS/pdoom-video-test/releases) 提供两版《将故事写成我们》的成片与交付包。源码随 Release 对应的 Git tag 保存。
+
+- V1：1080×1440，竖屏，39 个镜头。
+- V2：1920×1080，横屏，57 个镜头。
+- 两版均约 283.4 秒；交付包包含播放器、字幕、封面与已有技术验证报告。
+- 在对应作品目录解压交付包，恢复 `out/` 后即可使用 `preview.html`。重新制作请按各作品 README 安装依赖。
+
+逐帧渲染、历史帧备份、依赖目录、缓存、日志及本地参考视频不进入 Git。Release 是交付版本，不是整个工作区的备份。
+
+保留各目录原始 LICENSE 与署名；代码许可证不代表第三方音乐、歌词或角色的授权。根目录原参考工程的 `audio/pdoom.mp3` 当前在本地缺失，运行该参考工程需自行恢复，其他作品使用各自的 `assets/song.m4a`。
+
+---
+
+以下保留原参考工程说明。
+
 # I'm Upping My P(doom) — music video
 
 A generative, code-rendered music video with word-synced karaoke typography. Every frame is a deterministic function of song time, so the live preview in the browser and the offline 1080p60 (or 4K60) export are identical.

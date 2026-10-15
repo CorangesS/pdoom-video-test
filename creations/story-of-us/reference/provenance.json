@@ -1,0 +1,29 @@
+{
+  "source_video": "../../audio/将故事写成我们.mp4",
+  "source_duration_seconds": 283.4,
+  "source_video_size": [
+    720,
+    960
+  ],
+  "output_size": [
+    1080,
+    1440
+  ],
+  "song": "将故事写成我们",
+  "singer_composer": "林俊杰",
+  "lyricist": "方文山",
+  "lyrics_search_sources": [
+    "https://www.kugou.com/song-36/zmbg998.html",
+    "https://www.joox.com/mo/single/5cDLE29ztjdNMm30h6aO2g%3D%3D"
+  ],
+  "subtitle_source": "User-supplied video; local Vision OCR of lyric highlight row sampled every 0.5 seconds; OCR errors normalized. Published LRC timing cross-checked with a 33.0-second offset. Group boundary agreement within 0.5 seconds for stable OCR rows, excluding scrolling transient frames. Sentence timing, not forced word alignment.",
+  "music_pulse": {
+    "bpm": 68,
+    "basis": "Two late chorus windows both detect 136 BPM; half-time 68 used for subtle character motion. Earlier window ambiguous at 159 BPM.",
+    "beat_phase": 0.391
+  },
+  "visual_reference": "Reference is a vertical scrolling lyric video, not a character animation. All narrative visuals newly authored.",
+  "character": "Unmodified clawd.js from painted-animation template; supporting character uses same model with rose palette and flower hat.",
+  "style": "Code-rendered p5.js and p5.brush, seeded watercolor fills and ink.",
+  "audio": "AAC stream copied from the supplied MP4, no external music downloaded."
+}
